@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @cell.phone %>
+</p>
+
+<p>
+  <strong>Brnd:</strong>
+  <%= @cell.brnd %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cell.description %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @cell.color %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cell.price %>
+</p>
+
+<%= link_to 'Edit', edit_cell_path(@cell) %> |
+<%= link_to 'Back', cells_path %>
